@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Casamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Lista de Presentes</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            
+        </ul>
+    </nav>
+</header>
+
+<section class="container">
+    <!-- 33 cards de presentes -->
+    <!-- Exemplo de card -->
+    <div class="card">
+        <img src="./imagens/pix.png" alt="Aspirador de Pó e Água">
+        <h2>PIX surpresa</h2>
+        <p>Escolha o valor do seu PIX</p>
+        <button class="btn-presente" onclick="showModal('Escolha o valor do PIX')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/aspirador.png" alt="Aspirador de Pó e Água">
+        <h2>Aspirador de Pó e Água</h2>
+        <p>R$ 189,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 189,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/Bandejas.png" alt="Bandejas">
+        <h2>Bandejas para servir em inox - 8 peças</h2>
+        <p>R$ 127,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 127,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/banho.png" alt="Banho">
+        <h2>Banho e massagem relaxante</h2>
+        <p>R$ 168,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 168,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/Batedeira.png" alt="Batedeira">
+        <h2>Batedeira</h2>
+        <p>R$ 272,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 272,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/Bomboniere.png" alt="Bomboniere">
+        <h2>Bomboniere em cristal</h2>
+        <p>R$ 105,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 105,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/cama.png" alt="Cama">
+        <h2>Cama box casal com colchão</h2>
+        <p>R$ 849,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 849,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/capa travesseiro.png" alt="Capa-travesseiro">
+        <h2>Capa para travesseiro - 6 unidades</h2>
+        <p>R$ 115,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 115,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/churrasqueira.png" alt="churrasqueira">
+        <h2>Churrasqueira Grill</h2>
+        <p>R$ 180,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 180,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/cobertor.png" alt="cobertor">
+        <h2>Cobertor em plush casal</h2>
+        <p>R$ 349,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 349,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/Formas.png" alt="Formas">
+        <h2>Formas para bolo - 3 peças</h2>
+        <p>R$ 100,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 100,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/Xícaras.png" alt="Xícaras">
+        <h2>Conjunto de xícaras de café - 6 peças</h2>
+        <p>R$ 80,00</p>
+        <button class="btn-presente" onclick="showModal('R$ 80,00')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/decoração.png" alt="decoração">
+        <h2>Decoração</h2>
+        <p>R$ 360,00</p>
+        <button class="btn-presente" onclick="showModal('R$ 360,00')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/foto.png" alt="foto">
+        <h2>Foto e vídeo</h2>
+        <p>R$ 308,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 308,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/Frigideiras.png" alt="Frigideiras">
+        <h2>Frigideiras - 3 peças</h2>
+        <p>R$ 120,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 120,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/guarda-roupas.png" alt="guarda-roupas">
+        <h2>Guarda-roupa</h2>
+        <p>R$ 745,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 745,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/Lençois.png" alt="Lençois">
+        <h2>Jogo de Lençois - Geométricos</h2>
+        <p>R$ 189,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 189,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/Panelas.png" alt="Panelas">
+        <h2>Jogo de Panelas</h2>
+        <p>R$ 202,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 202,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/churrasco.png" alt="churrasco">
+        <h2>Kit Churrasqueiro</h2>
+        <p>R$ 70,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 70,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/Cobre-leito.png" alt="Cobre-leito">
+        <h2>Kit Cobre-leito Casal 200 Fios - 3 peças</h2>
+        <p>R$ 400,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 400,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/talheres.png" alt="talheres">
+        <h2>Kit Talheres</h2>
+        <p>R$ 120,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 120,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/limpeza.png" alt="limpeza">
+        <h2>Limpeza de pele para a noiva</h2>
+        <p>R$ 120,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 120,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/liquidificador.png" alt="liquidificador">
+        <h2>Liquidificador</h2>
+        <p>R$ 160,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 160,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/Manicure e pedicure.png" alt="Manicure">
+        <h2>Manicure e pedicure</h2>
+        <p>R$ 140,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 140,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/maquiagem.png" alt="maquiagem">
+        <h2>Maquiagem</h2>
+        <p>R$ 150,00</p>
+        <button class="btn-presente" onclick="showModal('R$ 150,00')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/microondas.png" alt="microondas">
+        <h2>Microondas</h2>
+        <p>R$ 520,00</p>
+        <button class="btn-presente" onclick="showModal('R$ 520,00')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/forno.png" alt="forno">
+        <h2>Mini forno elétrico 9L com grill e timer</h2>
+        <p>R$ 160,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 160,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/pressão.png" alt="pressão">
+        <h2>Panela de pressão 4,5 litros</h2>
+        <p>R$ 69,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 69,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/Panela.png" alt="Panela">
+        <h2>Panela elétrica de arroz 1 litro</h2>
+        <p>R$ 169,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 169,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/penteado.png" alt="penteado">
+        <h2>Penteado</h2>
+        <p>R$ 185,90</p>
+        <button class="btn-presente" onclick="showModal('R$ 185,90')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/Sanduicheira antiaderente.png" alt="Sanduicheira">
+        <h2>Sanduicheira antiaderente</h2>
+        <p>R$ 125,00</p>
+        <button class="btn-presente" onclick="showModal('R$ 125,00')">Presentear</button>
+    </div>
+    
+    <div class="card">
+        <img src="./imagens/taças.png" alt="taças">
+        <h2>Taças para vinho - 6 peças</h2>
+        <p>R$ 155,00</p>
+        <button class="btn-presente" onclick="showModal('R$ 155,00')">Presentear</button>
+    </div>
+    
+
+    <!-- Replicar o card acima para os 33 presentes com informações diferentes -->
+</section>
+
+<!-- Modal -->
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="hideModal()">&times;</span>
+        <h2>Chave PIX para pagamento</h2>
+        <p id="present-value"></p>
+        <p id="pix-key-type">CPF</p> <!-- Tipo de chave PIX do Vianez -->
+        <p id="pix-key">34996951619</p>
+        <p>Vianez Ferreira Souza</p>
+        <p>Nubank</p>
+        <button class="copy-btn" onclick="copyPixKey()">Copiar</button>
+        
+        <!-- Espaço entre as seções de Vianez e Heloísa -->
+        <div style="margin-top: 20px;"></div>
+        
+        <p id="pix-key-heloisa-type">CPF</p> <!-- Tipo de chave PIX da Heloísa -->
+        <p id="pix-key-heloisa">13966578603</p>
+        <p>Heloísa Constantino Oliveira</p>
+        <p>Caixa Econômica</p>
+        <button class="copy-btn" onclick="copyPixKeyHeloisa()">Copiar</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
